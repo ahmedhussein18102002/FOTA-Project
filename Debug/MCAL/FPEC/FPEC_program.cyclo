@@ -1,0 +1,6 @@
+../MCAL/FPEC/FPEC_program.c:34:13:FLASH_UNLOCK	1
+../MCAL/FPEC/FPEC_program.c:40:13:FLASH_LOCK	1
+../MCAL/FPEC/FPEC_program.c:45:13:WAIT_FOR_BSY	2
+../MCAL/FPEC/FPEC_program.c:56:6:FPEC_Write	2
+../MCAL/FPEC/FPEC_program.c:79:6:FPEC_EraseSectors	2
+../MCAL/FPEC/FPEC_program.c:107:4:FPEC_GetReadProtectionLevel	1
