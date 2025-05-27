@@ -321,6 +321,38 @@ Discarded input sections
  .debug_frame   0x00000000       0x34 ./LIB/sysmem.o
  .ARM.attributes
                 0x00000000       0x34 ./LIB/sysmem.o
+ .group         0x00000000        0xc ./MCAL/CRC/CRC_program.o
+ .group         0x00000000        0xc ./MCAL/CRC/CRC_program.o
+ .group         0x00000000        0xc ./MCAL/CRC/CRC_program.o
+ .group         0x00000000        0xc ./MCAL/CRC/CRC_program.o
+ .group         0x00000000        0xc ./MCAL/CRC/CRC_program.o
+ .text          0x00000000        0x0 ./MCAL/CRC/CRC_program.o
+ .data          0x00000000        0x0 ./MCAL/CRC/CRC_program.o
+ .bss           0x00000000        0x0 ./MCAL/CRC/CRC_program.o
+ .text.CRC_Init
+                0x00000000       0x10 ./MCAL/CRC/CRC_program.o
+ .text.CRC_RESET_DR
+                0x00000000       0x20 ./MCAL/CRC/CRC_program.o
+ .text.CRC_Accumlate
+                0x00000000       0x4c ./MCAL/CRC/CRC_program.o
+ .debug_info    0x00000000      0x14b ./MCAL/CRC/CRC_program.o
+ .debug_abbrev  0x00000000      0x10e ./MCAL/CRC/CRC_program.o
+ .debug_aranges
+                0x00000000       0x30 ./MCAL/CRC/CRC_program.o
+ .debug_rnglists
+                0x00000000       0x1f ./MCAL/CRC/CRC_program.o
+ .debug_macro   0x00000000       0x5d ./MCAL/CRC/CRC_program.o
+ .debug_macro   0x00000000      0xade ./MCAL/CRC/CRC_program.o
+ .debug_macro   0x00000000       0x34 ./MCAL/CRC/CRC_program.o
+ .debug_macro   0x00000000       0x40 ./MCAL/CRC/CRC_program.o
+ .debug_macro   0x00000000       0xd6 ./MCAL/CRC/CRC_program.o
+ .debug_macro   0x00000000       0x16 ./MCAL/CRC/CRC_program.o
+ .debug_line    0x00000000      0x1c0 ./MCAL/CRC/CRC_program.o
+ .debug_str     0x00000000     0x342d ./MCAL/CRC/CRC_program.o
+ .comment       0x00000000       0x44 ./MCAL/CRC/CRC_program.o
+ .debug_frame   0x00000000       0x74 ./MCAL/CRC/CRC_program.o
+ .ARM.attributes
+                0x00000000       0x34 ./MCAL/CRC/CRC_program.o
  .group         0x00000000        0xc ./MCAL/FPEC/FPEC_program.o
  .group         0x00000000        0xc ./MCAL/FPEC/FPEC_program.o
  .group         0x00000000        0xc ./MCAL/FPEC/FPEC_program.o
@@ -819,6 +851,7 @@ LOAD ./APP/bootloader.o
 LOAD ./APP/main.o
 LOAD ./LIB/syscalls.o
 LOAD ./LIB/sysmem.o
+LOAD ./MCAL/CRC/CRC_program.o
 LOAD ./MCAL/FPEC/FPEC_program.o
 LOAD ./MCAL/GPIO/GPIO_program.o
 LOAD ./MCAL/NVIC/NVIC_program.o
