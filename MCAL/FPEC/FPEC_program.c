@@ -53,7 +53,7 @@ static void WAIT_FOR_BSY(void){
  *  GLOBAL FUNCTIONS
  *********************************************************************************************************************/
 
-void FPEC_Write(u32 Copy_u32Address, u32* Copy_u32Data, u32 Copy_u32DataLength ){
+void FPEC_Write(u32 Copy_u32Address, u8* Copy_u32Data, u32 Copy_u32DataLength ){
 
 	u32 Local_Counter = 0;
 

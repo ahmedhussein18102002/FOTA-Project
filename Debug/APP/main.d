@@ -22,6 +22,9 @@ APP/main.o: ../APP/main.c ../APP/main.h ../APP/bootloader.h \
  /media/ahmed/New\ Volume/STM32_Projects/BootLoader/MCAL/SCB/SCB_private.h \
  /media/ahmed/New\ Volume/STM32_Projects/BootLoader/MCAL/SCB/../../LIB/BIT_MATH.h \
  /media/ahmed/New\ Volume/STM32_Projects/BootLoader/MCAL/SCB/../../LIB/STD_TYPES.h \
+ /media/ahmed/New\ Volume/STM32_Projects/BootLoader/MCAL/CRC/CRC_interface.h \
+ /media/ahmed/New\ Volume/STM32_Projects/BootLoader/MCAL/CRC/../../LIB/BIT_MATH.h \
+ /media/ahmed/New\ Volume/STM32_Projects/BootLoader/MCAL/CRC/../../LIB/STD_TYPES.h \
  /media/ahmed/New\ Volume/STM32_Projects/BootLoader/MCAL/FPEC/FPEC_interface.h \
  /media/ahmed/New\ Volume/STM32_Projects/BootLoader/MCAL/FPEC/../../LIB/BIT_MATH.h \
  /media/ahmed/New\ Volume/STM32_Projects/BootLoader/MCAL/FPEC/../../LIB/STD_TYPES.h
@@ -50,6 +53,9 @@ APP/main.o: ../APP/main.c ../APP/main.h ../APP/bootloader.h \
 /media/ahmed/New\ Volume/STM32_Projects/BootLoader/MCAL/SCB/SCB_private.h:
 /media/ahmed/New\ Volume/STM32_Projects/BootLoader/MCAL/SCB/../../LIB/BIT_MATH.h:
 /media/ahmed/New\ Volume/STM32_Projects/BootLoader/MCAL/SCB/../../LIB/STD_TYPES.h:
+/media/ahmed/New\ Volume/STM32_Projects/BootLoader/MCAL/CRC/CRC_interface.h:
+/media/ahmed/New\ Volume/STM32_Projects/BootLoader/MCAL/CRC/../../LIB/BIT_MATH.h:
+/media/ahmed/New\ Volume/STM32_Projects/BootLoader/MCAL/CRC/../../LIB/STD_TYPES.h:
 /media/ahmed/New\ Volume/STM32_Projects/BootLoader/MCAL/FPEC/FPEC_interface.h:
 /media/ahmed/New\ Volume/STM32_Projects/BootLoader/MCAL/FPEC/../../LIB/BIT_MATH.h:
 /media/ahmed/New\ Volume/STM32_Projects/BootLoader/MCAL/FPEC/../../LIB/STD_TYPES.h:

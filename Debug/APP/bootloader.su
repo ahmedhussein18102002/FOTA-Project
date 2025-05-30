@@ -1,0 +1,12 @@
+../APP/bootloader.c:51:13:Bootloader_Get_Version	32	static
+../APP/bootloader.c:80:13:Bootloader_Get_Chip_ID	32	static
+../APP/bootloader.c:105:13:Bootloader_Get_ReadProtection_Status	32	static
+../APP/bootloader.c:131:13:Bootloader_Application_Erase	32	static
+../APP/bootloader.c:157:13:Bootloader_Upload_Application	32	static
+../APP/bootloader.c:197:13:Bootloader_Jump_To_Application	40	static
+../APP/bootloader.c:237:13:Bootloader_CRC_Verify	40	static
+../APP/bootloader.c:263:13:Bootloader_Send_ACK	24	static
+../APP/bootloader.c:272:13:Bootloader_Send_NOT_ACK	16	static
+../APP/bootloader.c:279:13:Bootloader_Send_Data_To_Host	16	static
+../APP/bootloader.c:286:11:Host_Address_Verification	24	static
+../APP/bootloader.c:304:6:BL_UART_Fetch_Host_Command	8	static

@@ -23,11 +23,10 @@
 u8 data =255;
 int main(void)
 {
-
+	CRC_Init();
 	UART_voidInit(&UART1_Cfg);
-	FPEC_Write(0x08004000, &data , 1);
 	for(;;){
-		
+		BL_UART_Fetch_Host_Command();
 	}
 }
 

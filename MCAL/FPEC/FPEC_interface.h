@@ -20,7 +20,7 @@
  *  GLOBAL FUNCTION PROTOTYPES
  *********************************************************************************************************************/
 
-void FPEC_Write(u32 Copy_u32Address, u32* Copy_u32Data, u32 Copy_u32DataLength );
+void FPEC_Write(u32 Copy_u32Address, u8* Copy_u32Data, u32 Copy_u32DataLength );
 void FPEC_EraseSectors(u8 Copy_u8SectorNumber, u8 Copy_u8NbOfSectors);
 u8 FPEC_GetReadProtectionLevel(void);
 
